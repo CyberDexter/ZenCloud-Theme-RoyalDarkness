@@ -1,0 +1,77 @@
+/*
+-----------------------------------------
+ZenCloud RoyalDarkness - Miners Page v1.0
+By Cyberlizard, no rights reserved :)
+
+Add to Stylish and set to load on
+https://cloud.zenminer.com/miners
+-----------------------------------------
+*/
+
+    .devices .device.hashlet .power,
+    .devices .device.shalet .power,
+	.devices .device.legendary-hashlet.hashlet-prime .power,
+	.devices .device.ZenPool .power,
+	.devices .device.MultiPool .power,
+	.devices .device.CleverMining .power {
+        margin-top: 49px;
+  		margin-bottom: 2px;
+		background-color: #333333;
+		display: inline-block;
+		min-width: 8px;
+		padding: 3px 6px;
+		font-size: 11px;
+		font-weight: bold;
+		color: #ff9900 !important;
+		line-height: 1;
+		vertical-align: baseline;
+		white-space: nowrap;
+		text-align: center;
+		border-radius: 7px;
+		border: 1px solid;
+  		border-color: #999999;
+    }
+    .devices .device.hashlet {
+        line-height: 18px;
+    }
+
+    .device.hashlet .pool-icon,
+	.device.shalet .pool-icon,
+	.device.ZenPool .pool-icon,
+	.device.MultiPool .pool-icon,
+	.device.CleverMining .pool-icon,
+	.devices .device.legendary-hashlet .payout-tip,
+	.devices .device.shalet .payout-tip,
+	.devices .device.hashlet .payout-tip,
+	.devices .device.ZenPool .payout-tip,
+	.devices .device.MultiPool .payout-tip,
+	.devices .device.CleverMining .payout-tip     {
+        display: inline;
+        color: #000000;
+		font-size: 12px;
+    }
+    .payout-tip .payout-text {
+        color: #000000;
+    }
+    .device.hashlet-prime .payout-tip .payout-text {
+        color: #000000;
+		font-size: 12px;
+        margin-left: 160px;
+    }
+    .device.hashlet-prime .payout-tip .payout {
+        margin-left: 160px;
+    }
+    .payout-tip .payout {
+        background-color: #333333;
+        font-size: 11px;
+		color: #FFFFFF;
+        font-weight: bold;
+        min-width: 10px;
+        padding: 0px 7px;
+        border-radius: 7px;
+  		border: 1px solid;
+  		border-color: #999999;
+        vertical-align: baseline;
+        white-space: nowrap;
+        text-align: center;
+    }

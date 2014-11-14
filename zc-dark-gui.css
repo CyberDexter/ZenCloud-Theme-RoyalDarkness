@@ -1,0 +1,243 @@
+/*
+----------------------------------------------
+ZenCloud RoyalDarkness - Dark GUI Main v1.0
+By Cyberlizard, no rights reserved :)
+
+Add to Stylish and set at "url starting with"
+https://cloud.zenminer.com
+----------------------------------------------
+*/
+
+/* Navbar */
+
+body.blue #header .navbar {
+  background: #000000 !important;
+}
+
+#header .navbar .nav li a {
+  line-height: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: #ccc;
+}  
+
+body.blue #header .navbar .nav li a:hover, body.blue #header .navbar .nav li a:focus {
+	background: #333333 !important;
+}
+
+/* Sidebar */
+
+#sidebar.sidebar-fixed {
+	position: fixed;
+	overflow-y: hidden;
+}
+
+#sidebar { 
+  width: 210px;
+  height: auto;
+  left: 0;
+  bottom: 0;
+  top: 50px;
+  z-index: 99;
+}
+
+#sidebar #sideNav li a.active {
+  background: #333;
+  color: #ff9900;
+  font-weight: bold;
+  border-right: 1px solid transparent;
+  margin-right: -1px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+#sidebar #sideNav li a {
+  padding: 15px;
+  position: relative;
+  color: #ccc;
+  height: 50px;
+  border-radius: 0;
+  border-top: #333 1px solid ;
+  border-bottom: #333 1px solid;
+  background: #000;
+}
+
+#sidebar #sideNav li {
+	border-right: 1px solid #333;
+}
+
+#sidebar:after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 210px;
+  background: #000;
+  border-right: 1px solid #333;
+  z-index: -1;
+}
+
+/* Body, background image */
+
+body {
+  	background-image: url("http://i.imgur.com/0jWvnUw.jpg") !important;
+  	background-repeat: no-repeat;
+	background: #000;
+}
+
+/* Content Panels / widgets */
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #111;
+}
+
+.panel-heading.white-bg {
+  color: #ff9900 !important;
+  background-color: #000;
+}
+
+.panel.plain.panel-default .panel-heading {
+  border: #666 1px solid;
+  border-bottom: none;  
+}
+
+.panel-default>.panel-body {
+  border: 1px solid #666;
+  border-top: none;
+}
+
+.panel-body.white-bg {
+  color: #768399;
+  background: #333 !important;
+}
+
+.content-wrapper .heading h1.page-header {
+	background: none !important;
+	border-bottom: none !important;
+	color: #ff9900;
+}
+
+/* modal dialogue (sell hashlet, purchase miner etc) */
+
+.modal .modal-content .modal-header {
+  background: #000;
+  color: #fff;
+}
+
+.modal-title {
+color: #ff9900;
+}
+
+.modal .modal-content .modal-body {
+background: #111;
+}
+
+.modal .modal-content .modal-footer {
+background: #000;
+}
+
+thead {
+background: #000;
+  color: #9933ff;
+}
+
+table {
+background-color: #333;
+border: #666 1px solid !important;
+}
+
+.table-hover>tbody>tr:hover>td, .table-hover>tbody>tr:hover>th {
+background-color: #555;
+}
+
+dl {
+margin-top: 0;
+margin-bottom: 20px;
+color: #ff9900;
+}
+
+/* Primary button */
+
+.btn-primary {
+  color: #9933ff;
+  background-color: #000;
+  border-color: #9933ff;
+  border-radius: 4px;
+}
+      
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary { 
+color: #000; 
+background-color: #9933ff; 
+border-color: #000;
+border-radius: 4px;
+}      
+  
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 6px 8px;
+  font-size: 12px;
+  font-weight: normal;
+  color: #ddd;
+  line-height: 1;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #333;
+  border-radius: 5px;
+}  
+
+.badge-info {
+  background-color: #9933ff;
+}
+
+/* link formatting */
+
+a {
+  color: #9933ff;
+  text-decoration: none;
+}
+
+/* Table formatting (market, rates, champions page etc) */
+
+table {
+  color: #ccc;
+}
+
+table.dataTable tr.odd {
+  background: #111;
+}
+
+table.dataTable tr.even {
+	background: #222;
+}
+
+.table.table-bordered thead tr {
+  background: #111;
+}
+
+.table-bordered {
+	border: #666 1px solid;
+	background: #222;
+}
+
+/* Invite Friends */
+
+.section .tagline {
+  background-color: #111;
+  border: #666 1px solid;
+}
+
+/* ZenCloud change log */
+
+.bs-callout-info {
+  border-left: 3px solid #ff9900;
+  background-color: #111;
+}
+  
+.bs-callout-info h1, .bs-callout-info h2, .bs-callout-info h3, .bs-callout-info h4, .bs-callout-info h5, .bs-callout-info h6 {
+  color: #ff9900;
+}  

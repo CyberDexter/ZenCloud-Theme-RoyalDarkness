@@ -1,0 +1,67 @@
+/*
+-----------------------------------------
+ZenCloud RoyalDarkness - HashMarket v1.0
+By Cyberlizard, no rights reserved :)
+
+Add to Stylish and set to load on
+https://cloud.zenminer.com/market
+-----------------------------------------
+*/
+
+
+/* purchase dialogue price highlighting */
+      
+.blue-bg {
+  color: #ff9900;
+  background: #000;
+  background-color: #000;
+  border: #333 1px solid;  
+  margin-left: -14px;  
+}
+
+/* purchase buttons */
+
+.btn-success.btn-alt {
+  color: #9933ff;
+  background-color: #000;
+  border-color: #9933ff;
+  border-radius: 4px;
+}
+
+/* Hashlet icons */
+
+.hashlet-icon.hashlet-genesis {
+  background-image: url("https://bb6e35920a6ae45616eb-25a87bb4a0643cdd866c0607b60f1328.ssl.cf1.rackcdn.com/hashlet_genesis_no_txt.png") !important;
+  background-size: 150% 150%;
+  background-repeat: no-repeat;
+}
+
+.hashlet-icon.zenhashlet {
+  background-image: url("https://bb6e35920a6ae45616eb-25a87bb4a0643cdd866c0607b60f1328.ssl.cf1.rackcdn.com/zen_hashlet_no_txt.png") !important;
+  background-size: 150% 150%;
+  background-repeat: no-repeat;  
+}
+
+.hashlet-icon.multihashlet {
+  background-image: url("https://bb6e35920a6ae45616eb-25a87bb4a0643cdd866c0607b60f1328.ssl.cf1.rackcdn.com/multi_hashlet_no_txt.png") !important;
+  background-size: 150% 150%;
+  background-repeat: no-repeat;  
+}
+
+.hashlet-icon.cleverhashlet {
+  background-image: url("https://bb6e35920a6ae45616eb-25a87bb4a0643cdd866c0607b60f1328.ssl.cf1.rackcdn.com/clever_hashlet_no_txt.png") !important;
+  background-size: 150% 150%;
+  background-repeat: no-repeat;    
+}
+
+.hashlet-icon.wafflehashlet {
+  background-image: url("https://bb6e35920a6ae45616eb-25a87bb4a0643cdd866c0607b60f1328.ssl.cf1.rackcdn.com/waffle_hashlet_no_txt.png") !important;
+  background-size: 150% 150%;
+  background-repeat: no-repeat;
+}
+
+.hashlet-icon.hashlet-prime {
+  background-image: url("https://bb6e35920a6ae45616eb-25a87bb4a0643cdd866c0607b60f1328.ssl.cf1.rackcdn.com/hashlet_prime1_no_txt.png") !important;
+  background-size: 120% 110%;
+  background-repeat: no-repeat;  
+}
